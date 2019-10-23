@@ -48,9 +48,12 @@ class TodoList extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <input value = {this.state.inputValue} onChange = { this.handleInputChange }/>
-          <button onClick={this.handleBtnClick} className='add-btn'>add</button>
+        <div className='mainContent'>
+          <p>To do List @React</p>
+          <div className="tagGroup">
+            <input value = {this.state.inputValue} onChange = { this.handleInputChange }/>
+            <button onClick={this.handleBtnClick} className='add-btn'>创建任务</button>
+          </div>
         </div>
         <ul>{this.getTodoItems()}
         </ul>
