@@ -5,12 +5,36 @@
   justify-content: center;
   align-items: center;
 }
-.tagGroup {
-  
-}
 .add-btn {
   background: #b3e19d;
   color: #fff;
   font-size: 16px;
   border: none;
+}
+.ant-layout-header {
+  background: #00C6C6;
+  font-size: 20px;
+}
+.ant-layout-content {
+  height: 800px;
+  background: #fff;
+}
+.ant-card {
+  width: 420px;
+  height: 500px;
+  left: 500px;
+  top: 85px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px 1px #ccc;
+}
+.ant-input {
+  width: 70%;
+}
+.anticon {
+  width: 30px;
+  font-size: 20px;
+}
+ul {
+  position: absolute;
+  margin-top: 18px;
 }

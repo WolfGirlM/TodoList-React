@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Icon } from 'antd'
 class TodoItem extends Component {
   constructor(props) {
     super(props);
@@ -11,8 +12,7 @@ class TodoItem extends Component {
     const { content } = this.props;
     return (
       <div>
-      { content }
-      <i onClick={this.handleDelete}>x</i>
+      <li>{ content } <Icon type = "check-square" onClick={this.handleDelete}/></li>
       </div>
     );
   }
