@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import { Button} from 'antd'
+
 import TodoItem from './TodoItem'
 class TodoList extends Component {
   //methods
@@ -52,7 +54,8 @@ class TodoList extends Component {
           <p>To do List @React</p>
           <div className="tagGroup">
             <input value = {this.state.inputValue} onChange = { this.handleInputChange }/>
-            <button onClick={this.handleBtnClick} className='add-btn'>创建任务</button>
+            {/* <button onClick={this.handleBtnClick}>创建任务</button> */}
+             <Button type = "primary" onClick={this.handleBtnClick} className='add-btn'> 创建任务 </Button>
           </div>
         </div>
         <ul>{this.getTodoItems()}
