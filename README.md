@@ -5,4 +5,12 @@
 
 * 本地启动: npm start/yarn start
 
-* 资料相关: [@imooc-Dell老师](https://www.imooc.com/learn/1023)
+* 版本优化记录
+ - 引入antd优化样式
+ - 引入V16.6新增特性useState，优化this指向问题
+ - 引入函数式编程
+
+* 资料相关: 
+
+- [React文档](https://reactjs.org/docs/getting-started.html)
+- [@imooc-Dell(V16.4)](https://www.imooc.com/learn/1023)
