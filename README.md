@@ -6,9 +6,10 @@
 * 本地启动: npm start/yarn start
 
 * 版本优化记录
- - 引入antd优化样式
- - 引入V16.6新增特性useState，优化this指向问题
- - 引入函数式编程
+
+ V1.引入antd优化样式
+ V2.引入V16.6新增特性useState，优化this指向问题
+ V3.引入函数式编程
 
 * 资料相关: 
 
